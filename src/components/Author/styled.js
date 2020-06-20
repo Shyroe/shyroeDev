@@ -18,7 +18,6 @@ export const WrapperAuthor = styled.div`
   }
 
   & > ul {
-    /* border: 2px solid green; */
     padding-left: 3rem;
     color: ${({ theme }) => theme.primary};
     & > li > a {

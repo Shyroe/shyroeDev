@@ -17,6 +17,5 @@ export const Pagination = styled.div`
     color: ${({ theme }) => theme.primary};
     font-weight: 600;
     margin: 0 auto;
-    /* margin-left: 1.5rem; */
   }
 `

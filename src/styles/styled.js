@@ -58,14 +58,12 @@ export const WrapperSocial = styled.div`
 export const IconsContainer = styled.div`
   width: 100%;
   display: flex;
-  /* padding: 1rem 0; */
 `
 
 export const WrapperOuterPost = styled.div`
   width: 80%;
   height: auto;
   margin: 0 auto;
-  /* border: 2px solid goldenrod; */
 `
 
 //Social Icons
@@ -73,10 +71,8 @@ export const WrapperOuterPost = styled.div`
 export const WrapperPost = styled.div`
   width: inherit;
   height: auto;
-  /* border: 2px solid green; */
   font-family: Roboto, sans-serif;
   color: ${({ theme }) => theme.primary};
-  /* font-family: -apple-sys, sans-serif; */
 
   & header {
     margin-bottom: 5rem;
@@ -161,12 +157,7 @@ export const PostContentTag = styled.li`
     border-left-color: #00a8ff;
     width: 1.3rem;
     height: 100%;
-    /* Triangulo de bordas */
-    /* border: 10px solid transparent;
-    border-color: red green blue yellow; */
   }
-
-  /* margin-bottom: 3.5rem; */
 `
 
 // export const
@@ -178,18 +169,14 @@ export const PostRecomendedWrapper = styled.div`
   justify-content: space-between;
   margin-bottom: 3.5rem;
   margin-top: 1.5rem;
-  /* margin: 1.5rem auto 3.5rem auto; */
-  /* border: 2px solid red; */
 `
 
 export const PostRecomended = styled.div`
-  /* width: 40%; */
   width: 100%;
   height: 15rem;
   display: flex;
   flex-flow: column nowrap;
   border-radius: 0.3rem;
-  /* border: 2px solid blue; */
   padding: 1.5rem 1.5rem;
   color: white;
   cursor: pointer;
@@ -212,7 +199,6 @@ export const PostRecomended = styled.div`
 export const PostRecomendedLink = styled(Link)`
   text-decoration: none;
   display: flex;
-  /* border: 2px solid green; */
   width: 40%;
   height: auto;
 `
@@ -228,24 +214,19 @@ export const PostRecomendedProximo = styled(PostRecomended)`
 
 export const StyledAutorText = styled.p`
   color: ${props => props.theme.primary};
-  /* color: gray */
 `
 
 export const StyledContainer = styled.div`
   max-width: 1100rem;
   width: 80%;
   height: auto;
-  /* height: 100vh; */
   margin: 5rem auto;
-  /* padding: 5rem auto; */
-  border: 1px solid purple;
 `
 
 export const StyledSearchWrapper = styled.div`
   width: 80%;
   height: 100%;
   padding-bottom: 50vh;
-  border: 2px solid blueviolet;
   & h2 {
     color: ${({ theme }) => theme.primary};
     font-size: 1.6rem;
@@ -275,7 +256,6 @@ export const StyledSearchWrapper = styled.div`
 export const StyledWrapperOuter = styled.div`
   width: 100%;
   height: 100%;
-  border: 2px solid orangered;
   background-color: ${props => props.theme.bg};
   & footer {
     margin-top: auto;
@@ -302,9 +282,7 @@ export const StyledHeader = styled.nav`
   & ul {
     display: flex;
     list-style: none;
-    /* width: 100%; */
     margin-left: auto;
-    /* border: 2px solid orangered; */
 
     & li {
       margin-right: 1rem;
@@ -331,7 +309,6 @@ export const BlogListContainer = styled.div`
   flex-flow: column nowrap;
   justify-content: space-evenly;
   margin: 0 auto;
-  /* border: 1px solid orangered; */
   margin-bottom: 2.5rem;
   width: 60%;
   cursor: pointer;
@@ -355,7 +332,6 @@ export const BlogListContainer = styled.div`
   & nav {
     display: flex;
     align-items: center;
-    /* border: 1px solid green; */
 
     & ul {
       list-style: none;
@@ -376,61 +352,22 @@ export const BlogListContainer = styled.div`
 
 export const IconTag = styled(Tag)`
   display: block;
-  /* margin-right: 1rem; */
   margin: 0 1rem;
-  /* fill: purple; */
   color: red;
   width: 1rem;
   height: 1rem;
 `
-
-// export const Pagination = styled.div`
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   margin-top: 3rem;
-
-//   & span {
-//     color: ${({ theme }) => theme.primary};
-//     font-weight: 600;
-//     margin: 0 auto;
-//     /* margin-left: 1.5rem; */
-//   }
-// `
 
 export const StyledLink = styled(Link)`
   font-size: 1.6rem;
   font-weight: bold;
   color: ${({ theme }) => theme.primary};
   text-decoration: none;
-  /* position: relative; */
-  /* &::before { 
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: .2rem;
-    transform-origin: left;
-    background-color: goldenrod;
-    transform: scaleX(0);
-    transition: all 0.5s;
-  }    
-
-  &:hover::before { 
-    transform: scaleX(1);
-  } */
-
-  /* &:hover {
-    border-bottom: 2px solid ${({ theme }) => theme.primary};
-    transition: all 0.5s ease-in-out;
-  } */
 `
 
 export const TagContainer = styled.div`
   width: 70%;
   margin: 0 auto;
-  border: 2px solid cyan;
   padding: auto 1rem;
   border-radius: 10rem;
 `

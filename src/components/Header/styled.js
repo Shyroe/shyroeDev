@@ -21,15 +21,12 @@ export const StyledHeader = styled.nav`
   align-items: center;
   background-color: ${({ theme }) => theme.bgSecondary};
   color: ${({ theme }) => theme.primary};
-  /* margin-bottom: 8rem; */
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
 
   & ul {
     display: flex;
     align-items: center;
     list-style: none;
-    /* border: 2px solid green; */
-    /* width: 100%; */
     margin-left: auto;
 
     & li {
@@ -45,7 +42,6 @@ export const StyledHeader = styled.nav`
         color: ${({ theme }) => theme.primary};
 
         &:not(:last-child):hover {
-          /* color: orangered; */
           border-bottom: 2px dotted ${({ theme }) => theme.secondary};
         }
       }

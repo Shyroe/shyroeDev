@@ -1,99 +1,118 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's hello-world starter
-</h1>
+﻿## Project Light Theme
 
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+## HomePage
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+![homepage-1](https://user-images.githubusercontent.com/32007101/85189895-6603a500-b289-11ea-9e06-619c0f105195.png)
+![homepage-2](https://user-images.githubusercontent.com/32007101/85189898-68fe9580-b289-11ea-89e2-8fe18164aef9.png)
 
-## 🚀 Quick start
+## About
 
-1.  **Create a Gatsby site.**
+![about](https://user-images.githubusercontent.com/32007101/85189902-6e5be000-b289-11ea-888d-8e6272b270d5.png)
 
-    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
+## Post Header
 
-    ```shell
-    # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
-    ```
+![post-header](https://user-images.githubusercontent.com/32007101/85189907-787dde80-b289-11ea-8c50-c05ed90066c6.png)
 
-1.  **Start developing.**
+## Post Footer
 
-    Navigate into your new site’s directory and start it up.
+![post-footer](https://user-images.githubusercontent.com/32007101/85189908-7ae03880-b289-11ea-86a2-d61f30513599.png)
 
-    ```shell
-    cd my-hello-world-starter/
-    gatsby develop
-    ```
+## Tag Page
 
-1.  **Open the source code and start editing!**
+![tags](https://user-images.githubusercontent.com/32007101/85189912-83d10a00-b289-11ea-9708-e99413dc3324.png)
+![tags-item](https://user-images.githubusercontent.com/32007101/85189913-86336400-b289-11ea-95b8-7226c7e944bf.png)
+
+## Search Page
+
+![search](https://user-images.githubusercontent.com/32007101/85189916-8a5f8180-b289-11ea-8b19-42f2aebdea43.png)
+![search-empty](https://user-images.githubusercontent.com/32007101/85189919-8d5a7200-b289-11ea-8af9-2b74427be9b2.png)
+
+## Project Dark Theme
+
+## Homepage
+
+![homepage-1-dark](https://user-images.githubusercontent.com/32007101/85189945-df9b9300-b289-11ea-9f86-48bcb76942ef.png)
+
+## Post Page
+
+![post-header-dark](https://user-images.githubusercontent.com/32007101/85189946-e75b3780-b289-11ea-9ca6-e22e5c291083.png)
+![post-footer-dark](https://user-images.githubusercontent.com/32007101/85189947-e9bd9180-b289-11ea-8db2-9843530ced4e.png)
+
+## Tags Page
+
+![tags-dark](https://user-images.githubusercontent.com/32007101/85189948-ed511880-b289-11ea-8c87-15449bb007f0.png)
+
+## Search Page
+
+![search-dark](https://user-images.githubusercontent.com/32007101/85189949-efb37280-b289-11ea-801d-6c21bdb7dd5f.png)
+
+## Badges
+
+![alt](https://img.shields.io/badge/author-Shyroe-orange)
+![alt](https://img.shields.io/badge/languages-4-orange)
+![alt](https://img.shields.io/github/contributors/Shyroe/shyroeDev.svg?style=flat&color=orange)
+![alt](https://img.shields.io/github/forks/Shyroe/shyroeDev.svg?color=orange)
+
+# ![contents](https://img.icons8.com/color/40/000000/pin.png) Table of Contents
+
+- Features
+- Instalation
+- Getting Started
+- FAQ
+- Found a bug ? Missing a specific feature ?
+- Contributing
+- License
+
+## ![#features](https://img.icons8.com/color/30/000000/rocket.png) Features
+
+- Blog made with gatsby
+- dark and light theme switcher
+- pagination to posts
+- feature to search posts
+- Add comments in post
+
+## ![built](https://img.icons8.com/color/30/000000/maintenance.png) Instalation
+
+**You need to install [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/) first, then in order to clone the project via HTTPS, run this command:**
+
+_git clone https://github.com/Shyroe/repo.git_
+
+SSH URLs provide access to a Git repository via SSH, a secure protocol. If you have a SSH key registered in your Github account, clone the project using this command:
+
+_git clone https://github.com/Shyroe/repo.git_
+
+**Install dependencies**
+
+_yarn install_
+
+## ![start project](https://img.icons8.com/color/30/000000/running--v1.png) Getting Started
+
+Run the following command in order to start the application in a development environment:
+
+_gatsby develop_
+
+**Gatsby: open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).
 
-    Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+## ![ask and answer](https://img.icons8.com/nolan/30/faq.png) FAQ
 
-## 🧐 What's inside?
+**Question**: What are the tecnologies used in this project?
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+**Answer**: gatsby(react and graphql); elasticlunr; disqus; styled-components.
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+## ![there is a bug ? check this!](https://img.icons8.com/color/30/000000/mental-state.png) Issues
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+Feel free to file a new issue with a respective title and description on the the Amazon Next repository. If you already found a solution to your problem, i would love to review your pull request! Have a look at our contribution guidelines to find out about the coding standards.
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+## ![contribute to project](https://img.icons8.com/color/30/000000/hashtag-2.png) Contributing
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+Check out the contributing page to see the best places to file issues, start discussions and begin contributing.
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+## ![License](https://img.icons8.com/color/30/000000/book.png) License
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+This project is under the MIT license.
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
-
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
-
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
-
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
-
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
-
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+Made with love by Shyroe
