@@ -21,7 +21,7 @@ export const StyledHeader = styled.nav`
   align-items: center;
   background-color: ${({ theme }) => theme.bgSecondary};
   color: ${({ theme }) => theme.primary};
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 
   & ul {
     display: flex;

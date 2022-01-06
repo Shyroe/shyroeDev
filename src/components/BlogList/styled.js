@@ -57,6 +57,5 @@ export const BlogListWrapper = styled.div`
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
-  border: 2px solid green;
+  grid-gap: 2rem;  
 `

@@ -115,11 +115,13 @@ export default class Search extends Component {
         </form>
         <TagContainer>
           <ul>
-            {this.state.results.map(page => (
+            {this.state.results.map(page => {
+              //console.log("search item - path: ", window.location.origin);
+              return (
               <TagItem key={page.id}>
-                <StyledLink to={"/" + page.path}>{page.title}</StyledLink>
+                <StyledLink to={window.location.origin + page.path}>{page.title}</StyledLink>
               </TagItem>
-            ))}
+            )})}
           </ul>
         </TagContainer>
       </>

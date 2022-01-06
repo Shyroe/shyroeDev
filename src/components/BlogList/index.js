@@ -2,15 +2,15 @@ import React from "react"
 
 import { Link } from "gatsby"
 
-// import { BlogListContainer, IconTag, StyledLink } from "../../styles/styled"
 import { BlogListContainer, IconTag, StyledLink, BlogListWrapper } from './styled'
 
-const index = ({ blogList }) => {  
+const index = ({ blogList, location }) => {  
+  console.log('BlogList index.js location: ', location);
   return (
     <>
         <BlogListWrapper>
       {blogList.map(({ node }) => (
-        <StyledLink to={`/${node.fields.slug}`}>
+        <StyledLink to={`${location.origin}${node.fields.slug}`}>
           <BlogListContainer          
            imgBg={node.frontmatter.image} 
            key={node.fields.slug}>            

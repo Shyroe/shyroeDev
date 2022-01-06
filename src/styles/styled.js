@@ -8,7 +8,15 @@ import {
   LinkedinWithCircle,
 } from "@styled-icons/entypo-social/"
 
-import { Link } from "gatsby"
+import { Link } from "gatsby";
+
+
+export const StyledLink = styled(Link)`
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: ${({ theme }) => theme.primary};
+  text-decoration: none;
+`
 
 export const SocialIconSkeleton = css`
   width: 3rem;
@@ -107,7 +115,7 @@ export const WrapperPost = styled.div`
       color: red;
     }
   }
-`
+`;
 
 export const PostContentTitle = styled.h2`
   font-size: 3rem;
@@ -220,7 +228,8 @@ export const StyledContainer = styled.div`
   max-width: 1100rem;
   width: 80%;
   height: auto;
-  margin: 5rem auto;
+  margin: 0 auto;
+  padding: 5rem 0;  
 `
 
 export const StyledSearchWrapper = styled.div`
@@ -358,12 +367,7 @@ export const IconTag = styled(Tag)`
   height: 1rem;
 `
 
-export const StyledLink = styled(Link)`
-  font-size: 1.6rem;
-  font-weight: bold;
-  color: ${({ theme }) => theme.primary};
-  text-decoration: none;
-`
+
 
 export const TagContainer = styled.div`
   width: 70%;

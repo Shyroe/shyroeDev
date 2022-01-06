@@ -30,7 +30,7 @@ const BlogListTemplate = ({ location, data, pageContext }) => {
     <>
       <Layout location={location} title={siteTitle}>
         <SEO title={siteTitle} />
-        <BlogList blogList={blogList} />
+        <BlogList location={location} blogList={blogList} />
         <Pagination
           isFirst={isFirst}
           isLast={isLast}
