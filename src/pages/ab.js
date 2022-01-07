@@ -12,16 +12,16 @@ import BlogListTemplate from "../templates/blog-list"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
-  // const posts = data.allMarkdownRemark.edges
+  const posts = data.allMarkdownRemark.edges
 
   // rota /blog
-  // return (
-  //   <Layout location={location} title={siteTitle}>
-  //     <SEO title="All posts" />
-  //     <Bio />
-  //     <Posts data={data} />
-  //   </Layout>
-  // )
+  return (
+    <Layout location={location} title={siteTitle}>
+      <SEO title="All posts" />
+      <Bio />
+      <Posts data={data} />
+    </Layout>
+  )
 
   //rota root  - teste
   // return (

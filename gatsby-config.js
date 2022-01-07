@@ -61,21 +61,21 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Roboto`,
-            subsets: [`latin`],
-          },
-          {
-            family: `Roboto`,
-            variants: [`300`, `500`, `700`],
-          },
-        ],
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Roboto`,
+    //         subsets: [`latin`],
+    //       },
+    //       {
+    //         family: `Roboto`,
+    //         variants: [`300`, `500`, `700`],
+    //       },
+    //     ],
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
