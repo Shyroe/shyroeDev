@@ -11,7 +11,7 @@ const index = ({ blogList, location }) => {
     <>
         <BlogListWrapper>
       {blogList.map(({ node }) => (
-        <StyledLink to={`${location.origin}${node.fields.slug}`}>
+        <StyledLink to={`${node.fields.slug}`}>
           <BlogListContainer          
            imgBg={node.frontmatter.image} 
            key={node.fields.slug}>            
