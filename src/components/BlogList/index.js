@@ -6,11 +6,12 @@ import { BlogListContainer, IconTag, StyledLink, BlogListWrapper } from './style
 
 const index = ({ blogList, location }) => {  
   console.log('BlogList index.js location: ', location);
+  const isBrowser = typeof window !== `undefined`;
   return (
     <>
         <BlogListWrapper>
       {blogList.map(({ node }) => (
-        <StyledLink to={`${window.location.origin}${node.fields.slug}`}>
+        <StyledLink to={`${isBrowser ? location.origin : '/'}${node.fields.slug}`}>
           <BlogListContainer          
            imgBg={node.frontmatter.image} 
            key={node.fields.slug}>            
